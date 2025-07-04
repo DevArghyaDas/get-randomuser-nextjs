@@ -30,5 +30,10 @@
     "eslint": "9",
     "eslint-config-next": "15.3.4",
     "@eslint/eslintrc": "3"
-  }
+  },
+  "author": {
+    "name": "Arghya Das",
+    "url": "https://github.com/DevArghyaDas/get-randomuser-nextjs"
+  },
+  "license": "MIT"
 }
