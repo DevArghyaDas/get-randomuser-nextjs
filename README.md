@@ -27,6 +27,6 @@ This is a **Next.js (App Router)** project that fetches and displays user profil
 
 ```bash
 git clone https://github.com/DevArghyaDas/get-randomuser-nextjs.git
-cd random-user-explorer
+cd randomuser-nextjs-heroui
 npm install
 
