@@ -1,13 +1,6 @@
 import UserCard from "@/components/UserCard";
 import { UserData } from "@/lib/types";
 import axios from "axios";
-import { Metadata } from "next";
-
-export const generateMetadata = (): Metadata => {
-  return {
-    title: "Users | Random",
-  };
-};
 
 type Params = Promise<{ slug: string }>;
 
