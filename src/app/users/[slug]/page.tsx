@@ -14,7 +14,7 @@ type Params = Promise<{ slug: string }>;
 const page = async ({ params }: { params: Params }) => {
   const numberOfUsers: string = (await params).slug;
 
-  const baseUrl = process.env.API_URL as string;
+  const baseUrl = process.env.NEXT_PUBLIC_API_URL as string;
 
   if (parseInt(numberOfUsers) <= 30 && parseInt(numberOfUsers) > 0) {
     const { data } = await axios.get(baseUrl, {
